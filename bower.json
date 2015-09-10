@@ -1,0 +1,13 @@
+{
+  "name": "react-flux-mysql-byme",
+  "version": "0.0.0",
+  "authors": [
+    "ninohero <hsphar@northpointdigital.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "toastr": "~2.1.2"
+  }
+}

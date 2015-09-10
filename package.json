@@ -1,0 +1,48 @@
+{
+  "name": "react-flux-mysql-byme",
+  "version": "1.0.0",
+  "description": "react-flux-mysql music db devsite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninohero/react-flux-mysql-byme"
+  },
+  "main": "server.js",
+   "scripts": {
+    "start": "babel-node server.js",
+    "watch": "nodemon --exec babel-node -- server.js"
+  },
+  "author": "Ninohero",
+  "license": "ISC",
+  "dependencies": {
+    "alt": "^0.17.3",
+    "async": "^1.4.2",
+    "babel": "^5.8.23",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1",
+    "orm": "^2.1.27",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "request": "^2.61.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "bower": "^1.5.2",
+    "browserify": "^11.0.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^1.2.5",
+    "gulp-less": "^3.0.3",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  }
+}
